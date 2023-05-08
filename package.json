@@ -1,0 +1,63 @@
+{
+  "name": "PsychologistChatApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/art": "^1.2.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/picker": "^1.6.6",
+    "@react-native-firebase/app": "^8.4.6",
+    "@react-native-firebase/auth": "^9.3.1",
+    "@react-native-firebase/database": "^7.5.12",
+    "@react-native-firebase/firestore": "^7.8.7",
+    "@react-native-firebase/storage": "^7.4.10",
+    "@react-navigation/native": "^5.7.3",
+    "@react-navigation/stack": "^5.9.0",
+    "firebase": "^7.17.1",
+    "react": "16.13.1",
+    "react-native": "0.63.3",
+    "react-native-awesome-alerts": "^1.4.2",
+    "react-native-awesome-loading": "^1.0.15",
+    "react-native-elements": "^3.0.0-alpha.1",
+    "react-native-fast-image": "^8.3.2",
+    "react-native-file-picker": "0.0.19",
+    "react-native-fs": "^2.16.6",
+    "react-native-gesture-handler": "^1.7.0",
+    "react-native-image-picker": "^2.3.4",
+    "react-native-keyboard-aware-scrollview": "^2.1.0",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-loader": "^1.3.1",
+    "react-native-numeric-input": "^1.8.3",
+    "react-native-progress": "^4.1.2",
+    "react-native-reanimated": "^1.10.1",
+    "react-native-safe-area-context": "^3.1.1",
+    "react-native-screens": "^2.9.0",
+    "react-native-simple-radio-button": "^2.7.4",
+    "react-native-simple-toast": "^1.1.2",
+    "react-native-vector-icons": "^7.1.0",
+    "react-navigation": "^4.4.0",
+    "react-navigation-stack": "^2.8.2",
+    "react-uuid": "^1.0.2",
+    "rn-fetch-blob": "^0.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.0",
+    "@babel/runtime": "^7.12.0",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.5.2",
+    "eslint": "^7.11.0",
+    "jest": "^26.5.3",
+    "metro-react-native-babel-preset": "^0.63.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
